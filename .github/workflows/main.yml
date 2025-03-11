@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install
@@ -25,17 +25,14 @@ jobs:
         run: npx playwright install && npx playwright test
         continue-on-error: true
 
-      - name: Generate Ortoni Report
-        run: npx @ortoni/report
+      # - name: Generate Ortoni Report
+      #   run: npx @ortoni/report
 
-      - name: Upload Allure Results as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: allure-results
+      - name: List report-db directory
+        run: ls -la report-db
 
       - name: Upload Ortoni Results as artifact
         uses: actions/upload-artifact@v4
         with:
           name: ortoni-report
-          path: ortoni-report
+          path: report-db
