@@ -5,7 +5,9 @@
   "main": "index.js",
   "devDependencies": {
     "@playwright/test": "^1.51.0",
-    "@types/node": "^22.13.10"
+    "@types/node": "^22.13.10",
+    "ortoni-report": "^2.0.9",
+    "playwright-core": "^1.51.0"
   },
   "scripts": {},
   "repository": {
