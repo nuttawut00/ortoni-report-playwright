@@ -1,0 +1,22 @@
+{
+  "name": "ortoni-report-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuttawut00/ortoni-report-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuttawut00/ortoni-report-playwright/issues"
+  },
+  "homepage": "https://github.com/nuttawut00/ortoni-report-playwright#readme"
+}
