@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { PlaywrightDevPage } from "../e2e/pages/home/homePage";
+import { PlaywrightDevPage } from "./pages/home/home_page";
 
 test("getting started should contain table of contents", async ({ page }) => {
   const playwrightDev = new PlaywrightDevPage(page);
